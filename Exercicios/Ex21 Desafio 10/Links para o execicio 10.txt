@@ -1,0 +1,18 @@
+ <a href="https://androidcommunity.com/dan-morrill-shows-us-the-android-mascot-that-almost-was-20130103/" target="_blank">Dan Morrill</a>. Ele conta que abriu o <a href="https://inkscape.org/pt-br/" target="_blank">Inkscape</a>
+
+<img src="pacote-projeto-d010/imagens/dan-droids.png" alt="Primeiro mascote do android">
+
+<a href="https://www.irinablok.com/" target="_blank">Irina Blok</a>
+
+<img src="pacote-projeto-d010/imagens/irina-blok.jpg" alt="irina-blok, criadora do Bugdroid">
+
+<img src="pacote-projeto-d010/imagens/bugdroid.png" alt="Bugdroid">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<a href="https://www.android.com/intl/en_uk/history/" target="_blank">Android History</a>
+
+<a href="https://gustavoguanabara.github.io/" target="_blank">Gustavo Guanabara</a>
+
+<a href="https://www.youtube.com/cursoemvideo" target="_blank">CursoemVideo</a>
+

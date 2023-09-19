@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <h3>Hospedado video de maneira simples</h3>
+    <h4>Vídeo no formato MP4</h4>
+    <video src="midia/meu-video2.mp4" width="200" controls></video>
+    <h4>Vídeo no formato MKV</h4>
+    <video src="midia/meu-video2.mkv" width="200" controls></video>
+    <h4>Vídeo no formato WEBM</h4>
+    <video src="midia/meu-video2.webm" width="200"controls></video>
+
+    <h3>Hospedado video de maneira complexa</h3> <!--Mais funciona melhor-->
+    
+    <video width="300" poster="imagens/limoes-capa.png" controls >
+        <source src="midia/meu-video2.mp4"  type="video/mp4" >
+        <source src="midia/meu-video2.mkv"  type="video/mp4">
+        <source src="midia/meu-video2.webm" type="video/webm">
+        <source src="midia/meu-video2.ogg"  type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de video</p>
+
+      
+    </video>
+
+    <h1>Inserindo videos do Youtube</h1><!--Dessa forma não consome banda pois esta sendo usando a bando do youtube-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6iw6GmoX3Lc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> <img src="imagens/limoes-capa.png" alt=""></iframe>
+
+
+
+</body>
+</html>

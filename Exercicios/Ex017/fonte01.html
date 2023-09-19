@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas
+            cm (centrimetro), mm (milimetro), in (polegada), px (pixel), pt ( ponto), pc (paica)
+
+            Medidas Relativas
+
+            em (tamanho atual da fonrte), ex (Altura x de um fonte), rem (igual ao "em" mas relativo ao rut fonte configurada no Body), viw ( viwedf largurada vilporte - tamanho da sua tela, porcentagem da vilporta que é também a largura da viporte), vh ( altura  da vilporte), % porcentagem.
+            16px geralmente = 1em 
+            */
+            font-size: 1em;
+            font-weight: bolder;
+            font-style: italic;
+            text-decoration: underline;
+            /*lighter moprmal bold bolder*/
+
+        }
+        h1{
+            /*
+            font-family: 'work sans'; sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /*no lugar de usar as 4 linhas acima pode ser usado um shorthand font
+            -font-style
+            -font-weight
+            -font-size
+            -font-family
+            */
+            font:italic bolder 3em 'work Sans',sans-serif;
+        }
+        h1, h2{
+            /*
+            font-family: 'Times New Roman', Times, serif;
+            */
+            font: bolder 2em 'work sans',sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta laborum tenetur, totam, quasi minus amet esse, eius consectetur ab consequatur minima fuga magnam corrupti? Cum ab aspernatur sequi incidunt nemo.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, nostrum quis? Placeat nihil explicabo ullam. Unde aliquid reiciendis, sequi doloribus vitae ipsa, fuga, beatae iusto laboriosam architecto id enim distinctio.</p>
+    <h2>Subtitulo do exercício</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus maiores corporis vero officiis earum facere dignissimos labore nulla, consequuntur cumque minima velit molestiae officia voluptas in sit architecto libero nihil?</p>
+
+</body>
+</html>

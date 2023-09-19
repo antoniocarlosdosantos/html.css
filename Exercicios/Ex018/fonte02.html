@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'love';
+            src: url('fontes/love\ larry\ otf.ttf')format('truetype');
+            font-weight:normal;
+            font-style: normal;
+
+            /*
+               Tipos de format()
+               - opentype (otf)
+               - truetype (ttf)
+               - embedded - opentype
+               - truetype - aat (Apple Advamced Typography)
+               - svg
+
+            */
+        }
+        @font-face {
+            font-family: 'amor';
+            src: url('fontes/Lover.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'vida';
+            src: url('fontes/La\ Barceloneta.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            font-family: 'love', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+        h2{
+            font-family: 'amor', Helvetica, sans-serif;
+            font-weight: normal;
+            font-size: 1.8em;
+
+        }        
+    </style>
+</head>
+<body>
+    <h1>OLá,Mundo</h1>
+    <h1>Titulo</h1>
+    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt tempore tempora quaerat quod eveniet, repellendus, maiores, neque ratione error velit dolore? Iusto eligendi libero voluptatibus laborum fugit error animi ab.</h2>
+    
+</body>
+</html>
